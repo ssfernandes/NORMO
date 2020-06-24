@@ -32,6 +32,6 @@ R_b=mode(R_b); avg_t_b=mean(t_b);std_t_b=std(t_b);
 %output results
 fprintf('Approach | Estimate |    Time(s)\n')
 fprintf('exh-NORMO  | %8d | %2.2f+/-%2.2f\n',R_e, avg_t_e, std_t_e);
-fprintf('bbi-NORMO  | %8d | %2.2f+/-%2.2f\n',R_b, avg_t_b, std_t_b);
+fprintf('bin-NORMO  | %8d | %2.2f+/-%2.2f\n',R_b, avg_t_b, std_t_b);
 
  
